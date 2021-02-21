@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div>
+        <h1>Currency Converter</h1>
+    </div>
+
+    <div class="calculator_space">
+        <select name="currency" id="convert1" onchange="first()" oninput="first()">
+            <option value="USD1">USD</option>
+            <option value="GBP1">GBP</option>
+            <option value="CAD1">CAD</option>                        
+
+        </select>
+        <input type="number" id="input" onclick="first()" oninput="first()">
+        <br />
+        <br />
+        <br />
+        <select name="currency" id="convert2" onchange="first()" oninput="first()">
+            <option value="USD2">USD</option>
+            <option value="GBP2">GBP</option>
+            <option value="CAD2">CAD</option>
+
+        </select>
+        <input type="number" id="output" onclick="first()" oninput="first()">
+    </div>
+
+</body>
+
+</html>
